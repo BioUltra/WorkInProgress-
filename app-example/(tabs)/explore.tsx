@@ -6,6 +6,7 @@ import { ExternalLink } from '@/components/ExternalLink';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { blue } from 'react-native-reanimated/lib/typescript/reanimated2/Colors';
 
 export default function TabTwoScreen() {
   return (
@@ -90,8 +91,9 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   headerImage: {
-    color: '#808080',
+    color: '#808',
     bottom: -90,
+    backgroundColor: 'blue',
     left: -35,
     position: 'absolute',
   },
